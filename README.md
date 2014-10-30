@@ -11,6 +11,8 @@ The returned Array has the next format:
  validations did not pass.
   - results[index][0]= The result of index validation (True | False)
   - results[index][1]= If results[index][0] was False then this position will have the result (could be an exception catched) otherwise empty (True).
+
+
 The most common validations for this will be:
 
   - is integer 
